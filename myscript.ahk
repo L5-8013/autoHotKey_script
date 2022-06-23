@@ -48,14 +48,6 @@ Send ^v
 Return
 
 
-; 打开网页
-^m::
-Run,https://fanyi.youdao.com/
-ToolTip,测试打开网页
-Sleep, 3000
-ToolTip,
-Return
-
 ; 按下CTRL+Alt+鼠标左键就可以拿到文件的全路径了
 ^!LButton::
 Send ^c
